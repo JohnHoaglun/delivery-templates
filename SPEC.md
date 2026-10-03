@@ -9,6 +9,8 @@ tags: []
 
 # SPEC — {{project name}}
 
+**Attachments:** images pasted into this file (mockups, diagrams) go in `assets/` next to this note — the review pool, reviewed image-by-image before any promotion to a public repo at the SPEC→PLAN push. Never assume public by default. (RESEARCH.md's images go in `assets-private/` instead — always private, never a promotion candidate.) **Not yet auto-enforced** — no per-note attachment-routing plugin is wired up yet, so place images in the correct folder by hand until that lands.
+
 ## 1. Executive Summary / Problem Statement
 
 
@@ -47,6 +49,8 @@ tags: []
 *(Omit this section entirely if there's no UI.)*
 
 **Validator:** who accepts/rejects mockups? Defaults to the user solo unless named otherwise.
+
+Mockup images go in `assets/` (see the Attachments note above).
 
 | Screen | Status | Rejection reason (if rejected) |
 |---|---|---|

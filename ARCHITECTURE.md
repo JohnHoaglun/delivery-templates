@@ -15,6 +15,8 @@ Required for every project, UI or not. Must be a complete reference picture of w
 
 Tool-agnostic on format (picture, mermaid, whatever) — generated/maintained with a local tool, not cloud/frontend. Editable/updatable as design changes, not a static one-shot image.
 
+If this is a rendered image rather than mermaid, it goes in `assets/` next to this note — same review-pool convention as SPEC.md's mockups (see SPEC.md's Attachments note). Not yet auto-enforced.
+
 ```mermaid
 flowchart LR
 
